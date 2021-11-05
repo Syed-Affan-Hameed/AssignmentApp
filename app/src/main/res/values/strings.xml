@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Assignment App</string>
+    <string name="main_activity_name">Login</string>
+</resources>

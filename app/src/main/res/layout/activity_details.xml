@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity"
+    android:background="#ffffff"
+    >
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/Accent"
+
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                app:layout_scrollFlags="scroll|enterAlways"/>
+    <TextView
+        android:id="@+id/tv0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="29sp"
+        android:text="Bundle"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:text="Create Resource{} 1"
+        android:textAlignment="textStart"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="#f5f5f5"/>
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/tv11"
+        android:textColor="@color/black"
+        android:text="  Check the connection in case of task failure" />
+    <Button
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv5"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:text="  Add more Resources"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="#f5f5f5"/>
+    <TextView
+        android:id="@+id/tv12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_below="@id/tv3"
+        android:textColor="#008800"
+        android:layout_centerHorizontal="true"
+        android:text="    " />
+    <Button
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:text="  Create Resources{} 2 "
+        android:textAlignment="textStart"
+        android:layout_margin="10dp"
+        android:background="#f5f5f5"/>
+    <Button
+        android:id="@+id/tv8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv4"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:text="  Create Resources{} 3"
+        android:textAlignment="textStart"
+        android:layout_margin="10dp"
+        android:background="#f5f5f5"/>
+    <Button
+        android:id="@+id/tv9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv8"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:text="  Create Resources{} 4"
+        android:textAlignment="textStart"
+        android:layout_margin="10dp"
+        android:background="#f5f5f5"/>
+    <Button
+        android:id="@+id/tv10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv9"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:text="  Create Resources{} 5"
+        android:textAlignment="textStart"
+        android:layout_margin="10dp"
+        android:background="#f5f5f5"/>
+    <Button
+        android:id="@+id/tv11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv10"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:text="  Create Resources{} 6"
+        android:textAlignment="textStart"
+        android:layout_margin="10dp"
+        android:background="#f5f5f5"/>
+
+</RelativeLayout>

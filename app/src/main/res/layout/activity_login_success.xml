@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginSuccessActivity"
+    android:background="#ffffff">
+<TextView
+    android:id="@+id/txtwel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/imgonalogo"
+    android:text="Welcome to Android FHIR Client"
+    android:layout_centerHorizontal="true"
+    android:textSize="27sp"
+    android:textColor="@color/Accent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fast Health Interoperability Resources"
+        android:textSize="24sp"
+        android:layout_toRightOf="@id/fhirlogo"
+        android:layout_below="@id/txtwel"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/fhirdef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fhirlogo"
+        android:text="The Android FHIR SDK is an Android library for building offline-capable, mobile-first healthcare applications using FHIR resources on Android. "
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/fhirlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fhirdef"
+        android:text="New to FHIR standard? CLick here to Get Started "
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#0000cd"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/sdklink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fhirlink"
+        android:text="Learn more about Android FHIR SDK "
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#0000cd"
+        android:layout_margin="10dp"/>
+    <ImageView
+        android:id="@+id/imgonalogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/onalogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+    <ImageView
+        android:id="@+id/fhirlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtwel"
+        android:layout_marginTop="10dp"
+
+        android:src="@drawable/hl7fhir"/>
+    <CheckBox
+        android:id="@+id/chkbx"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_margin="20dp"
+        android:layout_below="@id/sdklink"/>
+    <TextView
+        android:layout_marginTop="11dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/chkbx"
+        android:layout_below="@id/sdklink"
+        android:text="Show this at startup"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+</RelativeLayout>

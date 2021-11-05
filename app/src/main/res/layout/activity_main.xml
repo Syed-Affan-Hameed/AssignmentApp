@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/onalogo"
+
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tvfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textSize="23sp"
+        android:layout_below="@id/btlogin"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imglogo"
+        android:hint="Enter User ID"
+        android:background="@color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="12dp"
+        android:padding="5dp"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:id="@+id/etmb"/>
+    <EditText
+        android:id="@+id/etpass"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/etmb"
+    android:hint="Password"
+    android:background="@color/white"
+    android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+    android:layout_marginRight="10dp"
+    android:padding="5dp"
+    android:inputType="textPassword"
+        android:maxLines="1"
+
+    />
+    <Button
+        android:id="@+id/btlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etpass"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="8dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:background="#d01c04"
+        />
+    <TextView
+        android:id="@+id/tvreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Don't have an account? Sign Up Now"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+</RelativeLayout>

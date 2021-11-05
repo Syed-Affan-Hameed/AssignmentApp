@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:background="#f44336">
+<TextView
+    android:id="@+id/tvhd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Register Yourself!"
+    android:textSize="24sp"
+    android:layout_margin="10dp"
+    android:paddingLeft="10dp"
+    android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/etmbr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="22sp"
+        android:layout_below="@id/tvhd"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:hint="Register Mobile Number"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:background="@color/white"/>
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="22sp"
+        android:layout_below="@id/etmbr"
+        android:padding="5dp"
+        android:hint="Register Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:background="@color/white"/>
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="22sp"
+        android:layout_below="@id/etemail"
+        android:padding="5dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:background="@color/white"/>
+    <EditText
+    android:id="@+id/etaddress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textSize="22sp"
+    android:layout_below="@id/etname"
+    android:padding="5dp"
+    android:hint="Address"
+    android:inputType="text"
+    android:maxLines="10"
+    android:background="@color/white"/>
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="22sp"
+        android:layout_below="@id/etaddress"
+        android:padding="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="10"
+        android:background="@color/white"/>
+    <EditText
+        android:id="@+id/etpasscon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="22sp"
+        android:layout_below="@id/etpassword"
+        android:padding="5dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:maxLines="10"
+        android:background="@color/white"/>
+    <Button
+        android:id="@+id/btnreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="24sp"
+        android:layout_below="@id/etpasscon"
+        android:padding="5dp"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="#d32f2f"/>
+
+
+
+
+</RelativeLayout>
